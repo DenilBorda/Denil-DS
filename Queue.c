@@ -23,7 +23,7 @@ void delete(int a[])
 {
    if(f<0)
     {   
-        printf ("Queue is Empty");
+        printf ("\n Queue is Empty");
     }
     else if(f==r)
     {
@@ -45,11 +45,14 @@ int display(int a[])
 int main()
 {
     int a[n];
-    insert(10,a);
-    insert(20,a);
-    insert(30,a);
-    insert(40,a);
+    insert(a,10);
+    insert(a,20);
+    insert(a,30);
+    insert(a,40);
+    insert(a,50);
     display(a);
+    delete(a);
+    delete(a);
     delete(a);
     display(a);
 }
