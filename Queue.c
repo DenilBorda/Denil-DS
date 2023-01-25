@@ -34,14 +34,45 @@ void delete(int a[])
         ++f;
     } 
 }
+int rear(int a[], int val)
+{
+    if (r < 0)
+    {
+        printf("\nQueue is Empty....");
+    }
+    else if (f == r)
+    {
+       f = r = -1;
+    }
+    else
+    {
+        --r;
+    }
+}
+int front(int a[] , int val)
+{
+    if (f < 0)
+    {
+        printf("\n Queue is Empty....");
+    }
+    else if(f == -1)
+    {
+       f = r = 0;
+       a[f] = val;
+    }
+    else
+    {
+        a[--f] = val; 
+    }
+}
 int display(int a[])
 {
-    for(i=f; i<=r;i++)
+    for (i = f; i <= r; i++)
     {
-        printf("%d\t",a[i]);
+        printf("%d\t", a[i]);
     }
     printf("\n");
-}
+}  
 int main()
 {
     int a[n];
@@ -56,3 +87,4 @@ int main()
     delete(a);
     display(a);
 }
+
