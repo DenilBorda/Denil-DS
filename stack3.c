@@ -98,37 +98,41 @@ int display(int a[])
 }
 int main()
 {
-    int ch z;
-    //  int 
-    while(ch > 0)
-    { v                                            
-        cout<<"\n\t\t\t\tEnter your choice :";
-        cin>>ch;
-        switch (ch)
-        {
-        case 1:
-            insert(a[],z);            
-            break;
-        case 2:
-            delete(a[]);            
-            break;
-        case 3:
-            push(a[],z);            
-            break;
-        case 4:
-            mid_push(a[],z);            
-            break;
-        case 5:
-            pop(a[]);            
-            break;
-        case 6:
-            mid_pop(a[]);            
-            break;
-        case 7:
-            display();
-            break;
-        default:
-            break;
-        }
-    }
+    
 }
+// int main()
+// {
+//     int ch z;
+//     //  int 
+//     while(ch > 0)
+//     { v                                            
+//         cout<<"\n\t\t\t\tEnter your choice :";
+//         cin>>ch;
+//         switch (ch)
+//         {
+//         case 1:
+//             insert(a[],z);            
+//             break;
+//         case 2:
+//             delete(a[]);            
+//             break;
+//         case 3:
+//             push(a[],z);            
+//             break;
+//         case 4:
+//             mid_push(a[],z);            
+//             break;
+//         case 5:
+//             pop(a[]);            
+//             break;
+//         case 6:
+//             mid_pop(a[]);            
+//             break;
+//         case 7:
+//             display();
+//             break;
+//         default:
+//             break;
+//         }
+//     }
+// }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #define n 6
 int binary_search(int a[], int val)
@@ -47,3 +48,30 @@ int main()
         printf("Element is found at position [%d] ", search);
     }
 }
+=======
+#include<stdio.h>
+#define n 5
+int search(int a[],int x)
+{
+    int mid;
+    int l;
+    int h;
+    while(l <=h)
+    {
+        mid = (l+h)/2
+        if (a[mid]==val)
+        {
+            return mid +1;
+        }
+        else if(a[mid] < val)
+        {
+            l = mid + 1;
+        }
+            
+    }
+}
+int main()
+{
+
+}
+>>>>>>> 4997b258f49830820f5a0d7283db91cf01460f01

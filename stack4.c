@@ -70,4 +70,3 @@ int main()
             break;
         }
     } while (ch != 0);
-}
