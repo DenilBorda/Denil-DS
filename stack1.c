@@ -6,7 +6,7 @@ int display(int a[])
 {
     for(i = 0; i<=top; i++)
     {
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
         // printf("\n");
     }
 }
